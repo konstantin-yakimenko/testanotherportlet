@@ -16,6 +16,18 @@
 		<param-value>deployment</param-value>
 	</context-param>
 -->
+<!-- 
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/testanotherbean-spring.xml</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>portalContextConfigLocation</param-name>
+        <param-value>/WEB-INF/classes/testanotherbean-spring.xml</param-value>
+    </context-param>
+ -->
+
 	<context-param>
 		<param-name>portalListenerClasses</param-name>
 		<param-value>com.liferay.portal.kernel.servlet.SerializableSessionAttributeListener,org.springframework.web.context.ContextLoaderListener,com.liferay.portal.kernel.servlet.PluginContextListener</param-value>

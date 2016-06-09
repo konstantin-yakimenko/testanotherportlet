@@ -25,6 +25,10 @@ public class TestanotherportletPortletController
 	@RenderMapping
 	public String handleRenderRequest(RenderRequest request, RenderResponse response, Model model)
 	    throws MalformedURLException {
+		
+		Anotherbean anotherbean = (Anotherbean)_applicationContext.getBean(Anotherbean.class);
+		System.out.println("YakimKY --- Anotherbean founded str = " + anotherbean.getStr());
+
 		return "TestanotherportletViewPage";
 	}
 }
